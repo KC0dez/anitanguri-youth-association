@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anitanguri Youth Association</title>
+  <meta name="description" content="Anitanguri Youth Association — empowering our community through education, health, and collaboration. Based in Bansi, Binduri District, Upper East Region, Ghana.">
+  <meta name="keywords" content="Anitanguri Youth Association, AYA, Ghana NGO, community development, education, health, Upper East Region">
+  <meta name="author" content="Anitanguri Youth Association">
+  <meta property="og:title" content="Anitanguri Youth Association">
+  <meta property="og:description" content="Empowering Our Community Through Education and Collaboration.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div class="page-loader" id="pageLoader">
+  <div class="loader-content">
+    <img src="./images/logos/logo.png" alt="A.Y.A Logo" class="loader-logo-img">
+    <div class="loader-bar">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+</div>
+
+<!-- NAVIGATION -->
+<nav class="navbar" id="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <a href="index.html" class="logo-link">
+        <img src="./images/logos/logo.png" alt="Anitanguri Youth Association Logo" class="nav-logo-img">
+      </a>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="donate.html" class="nav-donate">Donate</a></li>
+    </ul>
+    <div class="nav-toggle" id="navToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO SLIDER -->
+<section class="hero" id="hero">
+  <div class="hero-slides">
+
+    <div class="hero-slide active" style="background-image: url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=1600&q=80');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Anitanguri Youth Association</h1>
+        <p class="hero-tagline">Empowering Our Community Through Education and Collaboration</p>
+        <div class="hero-buttons">
+          <a href="projects.html" class="btn-primary">Our Projects</a>
+          <a href="donate.html" class="btn-secondary">Donate Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1509099836639-18ba1795216d?w=1600&q=80');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Building Brighter Futures</h1>
+        <p class="hero-tagline">Supporting youth through education, health, and opportunity</p>
+        <div class="hero-buttons">
+          <a href="about.html" class="btn-primary">Learn More</a>
+          <a href="contact.html" class="btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-slide" style="background-image: url('https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=1600&q=80');">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1 class="hero-title">Stronger Together</h1>
+        <p class="hero-tagline">Join us in making a lasting difference in our community</p>
+        <div class="hero-buttons">
+          <a href="team.html" class="btn-primary">Meet the Team</a>
+          <a href="gallery.html" class="btn-secondary">View Gallery</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="hero-arrow hero-prev" id="heroPrev">&#8249;</button>
+  <button class="hero-arrow hero-next" id="heroNext">&#8250;</button>
+
+  <div class="hero-dots" id="heroDots">
+    <span class="hero-dot active" data-index="0"></span>
+    <span class="hero-dot" data-index="1"></span>
+    <span class="hero-dot" data-index="2"></span>
+  </div>
+</section>
+
+<!-- STATISTICS SECTION -->
+<section class="stats-section fade-in-section">
+  <div class="stats-container">
+
+    <div class="stat-card">
+      <div class="stat-icon">📚</div>
+      <div class="stat-number" data-target="500" data-suffix="+">0</div>
+      <div class="stat-label">Books Distributed</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-icon">🎓</div>
+      <div class="stat-number" data-target="20" data-suffix="+">0</div>
+      <div class="stat-label">Students Supported</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-icon">🏘️</div>
+      <div class="stat-number" data-target="2" data-suffix="">0</div>
+      <div class="stat-label">Community Projects</div>
+    </div>
+
+    <div class="stat-card">
+      <div class="stat-icon">🤝</div>
+      <div class="stat-text">Growing</div>
+      <div class="stat-label">Volunteer Community</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ABOUT PREVIEW SECTION -->
+<section class="about-preview fade-in-section">
+  <div class="about-container">
+
+    <div class="about-image">
+      <img src="https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800&q=80" alt="Anitanguri Youth Association community members">
+      <div class="about-image-badge">
+        <span>Est. by Youth, For Community</span>
+      </div>
+    </div>
+
+    <div class="about-text">
+      <span class="about-label">Who We Are</span>
+      <h2 class="about-heading">We Couldn't Wait — So We Acted</h2>
+      <p class="about-description">
+        Anitanguri Youth Association was born from a simple truth: our community could not wait.
+        Recognizing urgent needs across education, health, and community development — and knowing
+        government intervention could take decades — the youth of Anitanguri took matters into their
+        own hands.
+      </p>
+      <p class="about-description">
+        Together, we have built a base parliament, supported students in local schools, and continue
+        to grow our impact one project at a time.
+      </p>
+      <div class="about-values">
+        <div class="about-value">
+          <span class="value-icon">📚</span>
+          <span>Education</span>
+        </div>
+        <div class="about-value">
+          <span class="value-icon">❤️</span>
+          <span>Health</span>
+        </div>
+        <div class="about-value">
+          <span class="value-icon">🏘️</span>
+          <span>Community</span>
+        </div>
+      </div>
+      <a href="about.html" class="btn-green">Read Our Full Story →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- FEATURED PROJECTS SECTION -->
+<section class="projects-preview fade-in-section">
+  <div class="projects-preview-container">
+
+    <div class="section-header">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-heading">Our Projects</h2>
+      <p class="section-subtext">Every project is a step toward a stronger, healthier, and more educated Anitanguri community.</p>
+    </div>
+
+    <div class="project-cards">
+
+      <div class="project-card">
+        <div class="project-card-image">
+          <img src="https://images.unsplash.com/photo-1560252829-804f1aedf1be?w=600&q=80" alt="Community Parliament">
+          <div class="project-card-tag">Community</div>
+        </div>
+        <div class="project-card-body">
+          <h3>Community Parliament</h3>
+          <p>A dedicated space built for community members to sit, converse, and connect — fostering unity and open dialogue at the heart of Anitanguri.</p>
+          <a href="projects.html" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-image">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=600&q=80" alt="School Supplies Donation">
+          <div class="project-card-tag">Education</div>
+        </div>
+        <div class="project-card-body">
+          <h3>School Supplies Donation</h3>
+          <p>We donated uniforms, books, mathematical sets, pens, pencils, and erasers to JHS and primary school students to support their education.</p>
+          <a href="projects.html" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-card-image">
+          <img src="https://images.unsplash.com/photo-1584515933487-779824d29309?w=600&q=80" alt="Health Insurance Renewal">
+          <div class="project-card-tag">Health</div>
+        </div>
+        <div class="project-card-body">
+          <h3>Health Insurance Renewal</h3>
+          <p>We renewed the health insurance cards of children in our community, ensuring they have access to healthcare when they need it most.</p>
+          <a href="projects.html" class="project-link">View Project →</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="projects-preview-footer">
+      <a href="projects.html" class="btn-green">View All Projects →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- EXECUTIVE PREVIEW SECTION -->
+<section class="exec-preview fade-in-section">
+  <div class="exec-preview-container">
+
+    <div class="section-header">
+      <span class="section-label">Leadership</span>
+      <h2 class="section-heading">Meet the Executive Team</h2>
+      <p class="section-subtext">The dedicated young people driving change in the Anitanguri community.</p>
+    </div>
+
+    <div class="exec-cards">
+
+      <div class="exec-card">
+        <div class="exec-img-wrap">
+          <img src="./images/team/sky.jpg" alt="Abugri Sampson Sky">
+        </div>
+        <div class="exec-info">
+          <h3>Abugri Sampson</h3>
+          <span class="exec-nickname">"Sky!"</span>
+          <span class="exec-role">President</span>
+          <p>Leading the association with vision, passion and a commitment to community growth.</p>
+        </div>
+      </div>
+
+      <div class="exec-card">
+        <div class="exec-img-wrap">
+          <img src="./images/team/kwame.jpg" alt="Apandago Jeremiah Kwame">
+        </div>
+        <div class="exec-info">
+          <h3>Apandago Jeremiah</h3>
+          <span class="exec-nickname">"Kwame"</span>
+          <span class="exec-role">General Secretary</span>
+          <p>Coordinating operations and keeping the association organized and on track.</p>
+        </div>
+      </div>
+
+      <div class="exec-card">
+        <div class="exec-img-wrap">
+          <img src="./images/team/kelvin.jpg" alt="Abdul-Salam Inusah Kelvin">
+        </div>
+        <div class="exec-info">
+          <h3>Abdul-Salam Inusah</h3>
+          <span class="exec-nickname">"Kelvin"</span>
+          <span class="exec-role">Financial Secretary</span>
+          <p>Managing funds with transparency and accountability for every project.</p>
+        </div>
+      </div>
+
+      <div class="exec-card">
+        <div class="exec-img-wrap">
+          <img src="./images/team/ndebil.jpg" alt="Akparibo Majeed Ndebil">
+        </div>
+        <div class="exec-info">
+          <h3>Akparibo Majeed</h3>
+          <span class="exec-nickname">"Ndebil"</span>
+          <span class="exec-role">Organiser</span>
+          <p>Mobilizing members and ensuring smooth execution of all community activities.</p>
+        </div>
+      </div>
+
+      <div class="exec-card">
+        <div class="exec-img-wrap">
+          <img src="./images/team/mp.jpg" alt="Akudago Stephen MP">
+        </div>
+        <div class="exec-info">
+          <h3>Akudago Stephen</h3>
+          <span class="exec-nickname">"MP"</span>
+          <span class="exec-role">Special Duties Coordinator</span>
+          <p>Handling key assignments and supporting the team wherever needed most.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="exec-preview-footer">
+      <a href="team.html" class="btn-green">View Full Profiles →</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- TESTIMONIALS SECTION -->
+<section class="testimonials fade-in-section">
+  <div class="testimonials-container">
+
+    <div class="section-header">
+      <span class="section-label">Voices from the Community</span>
+      <h2 class="section-heading">What People Are Saying</h2>
+      <p class="section-subtext">Real words from the people A.Y.A exists to serve.</p>
+    </div>
+
+    <div class="testimonials-slider" id="testimonialsSlider">
+
+      <div class="testimonial-slide active">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">❝</div>
+          <p class="testimonial-text">What these young people are doing for Anitanguri is truly admirable. We elders are proud to see the youth take responsibility for our community's future. May God bless this association.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-author-info">
+              <h4>Matilda</h4>
+              <span>Community Elder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-slide">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">❝</div>
+          <p class="testimonial-text">I am full of joy seeing this initiative. We have waited long for change, and now our own children are bringing it. I wish Anitanguri Youth Association nothing but success and growth.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">H</div>
+            <div class="testimonial-author-info">
+              <h4>Hawa</h4>
+              <span>Community Elder</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testimonial-slide">
+        <div class="testimonial-card">
+          <div class="testimonial-quote">❝</div>
+          <p class="testimonial-text">Receiving school supplies from A.Y.A meant so much to me and my classmates. Now we can focus on our studies without worry. Thank you for thinking of us.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">S</div>
+            <div class="testimonial-author-info">
+              <h4>Student Beneficiary</h4>
+              <span>JHS Student</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="testimonial-dots" id="testimonialDots">
+      <span class="testimonial-dot active" data-index="0"></span>
+      <span class="testimonial-dot" data-index="1"></span>
+      <span class="testimonial-dot" data-index="2"></span>
+    </div>
+
+  </div>
+</section>
+
+<!-- PARTNERS SECTION -->
+<section class="partners fade-in-section">
+  <div class="partners-container">
+
+    <div class="section-header">
+      <span class="section-label">Partnerships</span>
+      <h2 class="section-heading">Our Partners & Sponsors</h2>
+      <p class="section-subtext">We are grateful to every individual and organization that believes in our mission. Want to support Anitanguri? Join us.</p>
+    </div>
+
+    <div class="partners-grid">
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">🤝</div>
+        <p>Your Organization</p>
+      </div>
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">🏫</div>
+        <p>Local School</p>
+      </div>
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">🏥</div>
+        <p>Health Institution</p>
+      </div>
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">🏢</div>
+        <p>NGO / Agency</p>
+      </div>
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">💼</div>
+        <p>Business / Sponsor</p>
+      </div>
+      <div class="partner-card placeholder">
+        <div class="partner-placeholder-icon">🌍</div>
+        <p>Community Group</p>
+      </div>
+    </div>
+
+    <div class="partners-cta">
+      <div class="partners-cta-box">
+        <h3>Become a Partner</h3>
+        <p>Is your organization passionate about youth development, education, or community growth? Let's work together to make a lasting impact in Anitanguri.</p>
+        <a href="contact.html" class="btn-green">Get In Touch →</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <img src="./images/logos/logo.png" alt="Anitanguri Youth Association Logo" class="footer-logo-img">
+      <p class="footer-about">Anitanguri Youth Association — empowering our community through education, health, and collaboration. Built by youth, for everyone.</p>
+      <div class="footer-social">
+        <a href="#" class="social-btn coming-soon" title="Facebook — Coming Soon">f</a>
+        <a href="#" class="social-btn coming-soon" title="Instagram — Coming Soon">in</a>
+        <a href="#" class="social-btn coming-soon" title="TikTok — Coming Soon">tk</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-heading">Quick Links</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="team.html">Our Team</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="donate.html">Donate</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-heading">Our Focus Areas</h4>
+      <ul class="footer-links">
+        <li><a href="projects.html">📚 Education Support</a></li>
+        <li><a href="projects.html">❤️ Health Initiatives</a></li>
+        <li><a href="projects.html">🏘️ Community Projects</a></li>
+        <li><a href="donate.html">💛 Donate & Support</a></li>
+        <li><a href="contact.html">🤝 Become a Partner</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4 class="footer-heading">Contact Us</h4>
+      <ul class="footer-contact-list">
+        <li>
+          <span class="contact-icon">📍</span>
+          <span>Bansi, Binduri District<br>Upper East Region, Ghana</span>
+        </li>
+        <li>
+          <span class="contact-icon">📞</span>
+          <span>
+            <a href="tel:+233550369232">0550369232</a><br>
+            <a href="tel:+233556126963">0556126963</a>
+          </span>
+        </li>
+        <li>
+          <span class="contact-icon">💬</span>
+          <span>
+            <a href="https://wa.me/233550369232" target="_blank">WhatsApp: 0550369232</a><br>
+            <a href="https://wa.me/233556126963" target="_blank">WhatsApp: 0556126963</a>
+          </span>
+        </li>
+        <li>
+          <span class="contact-icon">✉️</span>
+          <span><a href="mailto:anitanguriya22@gmail.com">anitanguriya22@gmail.com</a></span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <p>&copy; 2025 Anitanguri Youth Association. All rights reserved.</p>
+      <p class="footer-tagline">Empowering Our Community Through Education and Collaboration</p>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" title="Back to top">↑</button>
+
+<script src="./js/slider.js"></script>
+<script src="./js/counter.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./js/main.js"></script>
+
+</body>
+</html>
